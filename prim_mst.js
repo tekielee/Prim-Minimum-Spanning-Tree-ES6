@@ -16,7 +16,7 @@ function primMST(graph) {
 		key[i] = Number.MAX_SAFE_INTEGER;
 		visited[i] = false;
 	}
-	key[0] =0;
+	key[0] = 0;
 	parent[0] = 0;
 	for(let count = 0; count < len - 1; count++) {
 		let minValue = Number.MAX_SAFE_INTEGER;
